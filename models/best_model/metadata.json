@@ -38,5 +38,8 @@
         "worst concave points",
         "worst symmetry",
         "worst fractal dimension"
-    ]
+    ],
+    "number_of_features": 30,
+    "random_state": 42,
+    "test_size": 0.2
 }
