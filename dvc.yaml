@@ -1,0 +1,13 @@
+stages:
+
+  train:
+    cmd: python src/train.py
+    deps:
+      - data/breast_cancer.csv
+      - src/train.py
+      - src/utils.py
+    params:
+      - random_state
+      - test_size
+    outs:
+      - models/best_model
